@@ -1,0 +1,64 @@
+main {
+    margin-top: -15px;
+    max-width: 1300px;
+    box-shadow: none;
+    border: none;
+}
+
+.communities-list ul li {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    border-bottom: 2px solid rgba(60,64,67, .3);
+}
+
+.left-half {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.name, .community-row > a {
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    align-items: flex-end;
+}
+
+.create-time {
+    font-style: italic;
+    color: rgb(60,64,67);
+}
+
+.left-column {
+    line-height: 25px;
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.right-column {
+    display: flex;
+    gap: 9px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+.right-column {
+    background-color: #06f;
+    font-size: 15px;
+    color: white;
+    padding: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.inactive {
+    display: none;
+}

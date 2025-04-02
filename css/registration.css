@@ -1,0 +1,11 @@
+.enter {
+    margin-top: -20px;
+    margin-bottom: -2px;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.sub-email {
+    font-size: 12px;
+    color: rgb(138, 137, 137);
+}

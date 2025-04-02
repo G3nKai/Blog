@@ -1,0 +1,242 @@
+input, select {
+    max-width: 45%;
+}
+
+input[type="submit"] {
+    font-size: 12px;
+    display: block;
+    padding: 8px;
+    background-color: #06f;
+    color: white;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    max-width: fit-content;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(1, 66, 164);
+}
+
+.start-div {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    width: 90%;
+    max-width: 1150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#subButtPost {
+    display: none;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.select-nav {
+    display: flex;
+}
+
+.select-nav li {
+    display: inline;
+    padding: 9px;   
+    background-color: white;
+    color: #06f;
+    border: 1px #06f solid;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.select-nav li:hover {
+    cursor: pointer;
+    background-color: #06f;
+    color: white;
+}
+
+.filter, .post {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    width: 90%;
+    max-width: 1150px;
+    border: 1px solid rgba(19, 19, 19, 0.227);
+    box-shadow: 0 2px 7px rgba(19, 19, 19, 0.227);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post {
+    margin-top: 35px;
+    word-wrap: break-word;
+}
+
+.filter div:nth-child(n+3) {
+    padding: 10px 20px;
+}
+
+.filter div {
+    display: inline;
+}
+
+.filter .filter-first-row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.filter-first-row div {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 15px 15px;
+    flex: 1;
+}
+
+.filter-first-row div select {
+    margin-top: 5px;
+    flex: 1;
+    max-width: 100%;
+}
+
+.filter-first-row div input {
+    margin-top: 5px;
+    flex: 0;
+    max-width: 100%;
+}
+
+.filter .filter-others {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.filter-others div {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-time-read-finish,
+.filter-mine-groups{
+    margin-top: -10px;
+}
+
+.filter-others .filter-mine-groups {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+    flex-direction: row;
+}
+
+.filter-header p, .last-row {
+    background-color: rgba(60,64,67, .09);
+    padding: 8px;
+    margin: 0;
+}
+
+#subButtAccept {
+    margin-right: 1%;
+    align-self: start;
+    margin-top: 5px;
+}
+
+.filter-others input,
+.filter-others select {
+    width: auto;
+    max-width: 100%;
+}
+.div-date {
+    margin-left: 1%;
+}
+
+.post > * {
+    padding: 7px 14px;   
+}
+
+.first-row {
+    padding-top: 20px;
+}
+
+.title {
+    padding-left: 0;
+    border-bottom: 3px solid rgba(60,64,67, .09);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+
+.title + p {
+    word-wrap: break-word;
+}
+
+.tags {
+    color: rgb(187 187 187);
+}
+
+.tags + span {
+    padding-bottom: 16px;
+}
+
+.last-row {
+    display: flex;
+}
+
+.comments > span, .likes > span {
+    padding-right: 7px;
+}
+
+.comments > img, .likes > img {
+    position: relative;
+    top: 4px;
+}
+
+.comments {
+    display: inline-block;
+    margin-right: auto;
+}
+
+.likes {
+    display: inline;
+    margin-left: auto;
+}
+
+.likes img {
+    cursor: pointer;
+}
+
+.select-size {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-post {
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.select-navigate, .select-size {
+    display: inline-block;
+}
+
+#sizePage {
+    max-width: 350px;
+}
+
+.select-navigate {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    width: 90%;
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-navigate .select-nav {
+    padding-left: 0;
+}

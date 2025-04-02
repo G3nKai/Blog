@@ -1,0 +1,157 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-header {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(60,64,67, .3);
+    box-shadow: 0 2px 12px rgba(19, 19, 19, 0.227);
+    flex-wrap: wrap;
+}
+
+.header-list {
+    margin-top: 13px;
+    list-style: none;
+    padding: 0;
+    padding-right: 10px;
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.nav-head {
+    margin-right: auto;
+    margin-left: 10px;  
+}
+
+.profile-login {
+    text-decoration: none;
+    color: black;
+    align-self: center;
+}
+
+main {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 20px;
+    width: 90%;
+    max-width: 400px;
+    border: 1px solid rgba(19, 19, 19, 0.227);
+    box-shadow: 0 2px 7px rgba(19, 19, 19, 0.227);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.site-footer {
+    
+    margin-top: auto;
+    padding: 10px 50px;
+    background-color: rgba(60,64,67, .09);
+}
+
+.dropdown-profile {
+    position: relative;
+    bottom: 0px;
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.to-profile, .logout {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+.to-profile {
+    top: 15px;
+    left: 10px;
+}
+
+.logout {
+    top: 40px;
+    left: 10px;
+}
+
+.profile-button {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.profile-button::after {
+    margin-left: 5px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+}
+
+.dropdown-background {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    left: -7px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid rgba(19, 19, 19, .3);
+    border-radius: 5px;
+}
+
+.dropdown-background.active {
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgba(19, 19, 19, 0.227);
+}
+
+.login-text {
+    margin-bottom: 2px;
+    margin-top: 10px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+#subButtReg {
+    font-size: 12px;
+    display: block;
+    padding: 8px;
+    background-color: #06f;
+    color: white;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+}
+
+#subButtReg:hover {
+    background-color: rgb(1, 66, 164);
+}

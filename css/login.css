@@ -1,0 +1,51 @@
+.sub-butt {
+    font-size: 12px;
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: #06f;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sub-butt:hover {
+    background-color: rgb(1, 66, 164);
+}
+
+.register {
+    background-color: #6c757d;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: -20px;
+    margin-top: 7px;
+}
+
+.register:hover {
+    background-color: #3c4043;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgba(19, 19, 19, 0.227);
+}
+
+.login-text {
+    margin-bottom: 2px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.enter {
+    margin-top: -20px;
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: -2px;
+}

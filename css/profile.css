@@ -1,0 +1,23 @@
+main {
+    max-width: 1250px;
+    margin-top: 10px;
+    padding-top: 7px;
+}
+
+.row-div {
+    display: flex;
+    gap: 15px;
+    padding: 5px;
+}
+
+.row-div input, .row-div select {
+    margin-left: auto;
+    min-width: 10%;
+    max-width: 80%;
+}
+
+#subButtReg {
+    max-width: 80px;
+    max-height: 30px;
+    margin-left: auto;
+}

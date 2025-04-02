@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link href="css/based.css" rel="stylesheet" type="text/css">
+    <link href="css/registration.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header class="site-header">
+        <p class="name-head">Блог №415</p>
+        <nav class="nav-head">
+            <ul class="header-list">
+                <li><a href="index.html">Главная</a></li>
+            </ul>
+        </nav>
+        <a href="login.html" class="profile-login">Вход</a>
+        <div class="dropdown-profile">
+            <span class="profile-button"></span>
+            <div class="dropdown-background">
+                <a href="profile.html" class="to-profile">Профиль</a>
+                <a href="#" class="logout">Выйти</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1 class="enter">Регистрация</h1>
+        <form id="registrationForm">
+            <p class="login-text">ФИО</p>
+            <input type="text" id="nameReg" placeholder="Иванов Иван Иванович">
+            <p class="login-text">Дата рождения</p>
+            <input type="date" id="birthdayReg" placeholder="дд.мм.гггг">
+            <p class="login-text">Пол</p>
+            <select id="genderReg">
+                <option value="Male">Мужчина</option>
+                <option value="Female">Женщина</option>
+            </select>
+            <p class="login-text">Телефон</p>
+            <input type="tel" placeholder="+7 (xxx) xxx-xx-xx" id="phoneReg">
+            <p class="login-text">Email</p>
+            <input type="email" placeholder="name@example.com" id="emailReg">
+            <span class="sub-email">Email будет использоваться для входа в систему</span>
+            <p class="login-text">Password</p>
+            <input type="password" id="passwordReg">
+            <input type="submit" value="Зарегистрироваться" id="subButtReg">
+        </form>
+    </main>
+    <footer class="site-footer">
+        <p>&copy; 2022 - Блог №415</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="js/based.js"></script>
+    <script src="js/Registration/RegisterClass.js"></script>
+    <script src="js/Registration/registration.js"></script>
+</body>
+</html>

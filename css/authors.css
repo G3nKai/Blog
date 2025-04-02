@@ -1,0 +1,67 @@
+main {
+    margin-top: -15px;
+    max-width: 1300px;
+    box-shadow: none;
+    border: none;
+}
+
+.authors-list ul li {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    border-bottom: 2px solid rgba(60,64,67, .3);
+}
+
+.authors-list img {
+    border-radius: 50%;
+}
+
+.left-half {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+
+.name, .author-row > a {
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.create-time {
+    font-style: italic;
+    color: rgb(60,64,67);
+}
+
+.birth-date {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(60,64,67);
+}
+
+.left-column {
+    line-height: 25px;
+}
+
+.right-column {
+    display: flex;
+    gap: 9px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+.right-column span {
+    background-color: #06f;
+    font-size: 14px;
+    color: white;
+    padding: 2px;
+    padding-right: 10px;
+    padding-left: 10px;    
+}
